@@ -1,0 +1,43 @@
+header{
+    background-image: url("https://images.pexels.com/photos/4246186/pexels-photo-4246186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    min-height: 150px;
+    
+}
+
+@media only screen and (min-width: 1240px) {
+
+    body img{
+        height: 30vh;
+        width: 25%;
+        }
+    .roworcolum{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+  
+    body img{
+        height: 40vh;
+        width: 100%;
+    }
+
+    body select{
+        width: 95%;
+    }
+
+    body button{
+       width: 95%;
+       margin-left: 15px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+
+    main{
+        font-size: 25px;
+    }
+    
+
+}
